@@ -1,0 +1,95 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+locale: "nl"
+
+collections:
+  - name: "site"
+    label: "Website"
+    files:
+      - name: "content"
+        label: "Website teksten"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - {label: "Site naam", name: "siteTitle", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "SEO omschrijving", name: "metaDescription", widget: "text"}
+          - label: "Homepage"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "titleBefore", widget: "string"}
+              - {label: "Accent in titel", name: "titleAccent", widget: "string"}
+              - {label: "Intro", name: "lead", widget: "text"}
+              - {label: "Knop 1", name: "primaryButton", widget: "string"}
+              - {label: "Knop 2", name: "secondaryButton", widget: "string"}
+          - label: "Blokken bovenaan"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Omschrijving", name: "text", widget: "string"}
+          - label: "Verhuur"
+            name: "rental"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - label: "Verhuurkaarten"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - {label: "Titel", name: "title", widget: "string"}
+                  - {label: "Tekst", name: "text", widget: "text"}
+                  - {label: "Afbeelding", name: "image", widget: "image"}
+          - label: "DJ"
+            name: "dj"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Intro", name: "lead", widget: "text"}
+              - {label: "Afbeelding", name: "image", widget: "image"}
+              - {label: "Punten", name: "points", widget: "list"}
+          - label: "Presskit"
+            name: "presskit"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Intro", name: "lead", widget: "text"}
+              - {label: "Tekst", name: "text", widget: "text"}
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Portret", name: "portrait", widget: "image"}
+              - {label: "Outfitfoto's", name: "outfits", widget: "list", field: {label: "Afbeelding", name: "image", widget: "image"}}
+          - label: "Galerij"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Foto's", name: "images", widget: "list", field: {label: "Afbeelding", name: "image", widget: "image"}}
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Kleine tekst", name: "eyebrow", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Tekst", name: "text", widget: "text"}
+              - {label: "Regio", name: "region", widget: "string"}
+              - {label: "Telefoon", name: "phone", widget: "string"}
+              - {label: "E-mail", name: "email", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Regio", name: "region", widget: "string"}
+              - {label: "Telefoon", name: "phone", widget: "string"}
