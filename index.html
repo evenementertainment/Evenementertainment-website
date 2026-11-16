@@ -74,4 +74,6 @@ function render(c){
 }
 fetch('content/site.json').then(r=>r.json()).then(render).catch(()=>document.body.insertAdjacentHTML('afterbegin','<div style="padding:20px;background:#600;color:#fff;text-align:center">De website-inhoud kon niet worden geladen.</div>'));
 function sendMail(e){e.preventDefault();const selected=[...document.querySelectorAll('.checks input:checked')].map(x=>x.value).join(', ')||'Niet opgegeven';const body=['Naam: '+naam.value,'E-mail: '+email.value,'Telefoon: '+telefoon.value,'Datum: '+datum.value,'Locatie: '+locatie.value,'Type: '+type.value,'Wensen: '+selected,'','Bericht:',bericht.value].join('\\n');location.href='mailto:'+(content.contact?.email||'info@evenementertainment.nl')+'?subject='+encodeURIComponent('Boekings- of offerteaanvraag')+'&body='+encodeURIComponent(body)}
-</script></body></html>
+</script><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</body>
+</html>
