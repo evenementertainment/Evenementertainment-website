@@ -1,66 +1,122 @@
 {
-  "siteTitle": "Evenementertainment",
+  "contact": {
+    "eyebrow": "Boeking & vrijblijvende offerte",
+    "title": "Vertel wat je organiseert.",
+    "text": "Vul het formulier in. Je e-mailprogramma opent daarna met een complete aanvraag.",
+    "region": "Leudal • Roermond • Limburg",
+    "phone": "+31 6 33103952",
+    "email": "evenementertainment@gmail.com"
+  },
+  "rental": {
+    "eyebrow": "Verhuur",
+    "title": "Licht & geluid dat je feest draagt.",
+    "intro": "Combineer materialen naar wens. Prijzen zijn op aanvraag, zodat de offerte aansluit op uw wensen zoals locatie, duur en aantal gasten.",
+    "cards": [
+      {
+        "title": "Geluid",
+        "text": "Krachtige, heldere audio voor feesten, presentaties en evenementen.",
+        "image": "assets/event-1.png"
+      },
+      {
+        "title": "Licht & podium",
+        "text": "RGB-verlichting, podiumverlichting en complete lichtopstellingen.",
+        "image": "assets/stage.jpg"
+      },
+      {
+        "title": "Feestopstelling",
+        "text": "Van dansvloer en licht tot een complete DJ-setup.",
+        "image": "assets/event-3.png"
+      },
+      {
+        "title": "Sfeer & extra's",
+        "text": "Prikkabel, heaters en aanvullende materialen voor binnen en buiten tijdens uw evenement",
+        "image": "/assets/verlichting_prikkabel_10m.jpg"
+      },
+      {
+        "title": "tent verhuur ",
+        "text": "nieuw in de verhuur: Easy up partytent 6x4m. 4 zijwanden, 2 ingangen \nvoor ca. 48 staanplaatsen, 32 zitplaatsen of 34 rijen opgestelde stoelen\n\n",
+        "image": "/assets/gbd_fp_0400x0600_a50_2p_2d_bk.jpg.avif"
+      },
+      {
+        "title": "Complete productie",
+        "text": "Een totaaloplossing waarbij licht, geluid en sfeer samenkomen.",
+        "image": "assets/event-6.png"
+      }
+    ]
+  },
+  "dj": {
+    "eyebrow": "Allround DJ",
+    "title": "Van achtergrondmuziek tot volle dansvloer.",
+    "lead": "Een flexibele allround DJ-set voor verjaardagen, bruiloften, bedrijfsfeesten, verenigingen en privéfeesten.",
+    "image": "assets/dj-casual.jpg",
+    "points": [
+      "Muziek afgestemd op leeftijd",
+      "publiek en sfeer",
+      "Van gezellige classics tot moderne partyhits",
+      "Te combineren met eigen licht- en geluidsverhuur",
+      "Persoonlijke voorbereiding vooraf"
+    ]
+  },
   "tagline": "Licht • Geluid • DJ • Verhuur",
+  "siteTitle": "Evenementertainment",
+  "gallery": {
+    "eyebrow": "Impressie",
+    "title": "Van opbouw tot feest.",
+    "intro": "Een selectie van licht-, geluids- en eventopstellingen.",
+    "images": [
+      "assets/stage.jpg",
+      "assets/event-1.png",
+      "assets/event-2.png",
+      "assets/event-3.png",
+      "assets/event-5.png",
+      "assets/event-6.png"
+    ]
+  },
+  "presskit": {
+    "eyebrow": "Presskit",
+    "title": "DJ & Entertainer",
+    "lead": "Een veelzijdige performer voor evenementen waar muziek, uitstraling en sfeer samenkomen.",
+    "text": "Beschikbaar voor boekingen, samenwerkingen, social content en evenementen.",
+    "quote": "Een complete combinatie van muziek, entertainment, licht en geluid — afgestemd op het evenement.",
+    "portrait": "assets/dj-portrait.jpg",
+    "outfits": [
+      "assets/dj-white.jpg",
+      "assets/dj-pink.jpg",
+      "assets/dj-silver.jpg",
+      "assets/dj-green.jpg",
+      "assets/dj-surf.jpg",
+      "assets/dj-portrait.jpg"
+    ]
+  },
   "metaDescription": "Evenementertainment: verhuur van licht en geluid, complete feestopstellingen en allround DJ-service.",
   "hero": {
     "eyebrow": "Licht • Geluid • DJ • Verhuur",
-    "titleBefore": "Maak van elk feest een",
-    "titleAccent": "beleving.",
+    "titleBefore": "Maak van elk feest een unieke herinnering",
+    "titleAccent": "elk feest",
     "lead": "Evenementertainment verzorgt licht, geluid, feestopstellingen en allround DJ-service. Van een kleine privéparty tot een compleet evenement.",
     "primaryButton": "Plan jouw evenement →",
     "secondaryButton": "Bekijk verhuur"
   },
-  "stats": [
-    {"title":"🔊 Geluid","text":"Sets voor kleine en grotere feesten"},
-    {"title":"💡 Licht","text":"Sfeerverlichting & podiumlicht"},
-    {"title":"🎧 Allround DJ","text":"Muziek afgestemd op het publiek"},
-    {"title":"🎪 Eventverhuur","text":"Complete opstellingen op aanvraag"}
-  ],
-  "rental": {
-    "eyebrow":"Verhuur",
-    "title":"Licht & geluid dat je feest draagt.",
-    "intro":"Combineer materialen naar wens. Prijzen zijn op aanvraag, zodat de offerte aansluit op locatie, duur en aantal gasten.",
-    "cards":[
-      {"title":"Geluid","text":"Krachtige, heldere audio voor feesten, presentaties en evenementen.","image":"assets/event-1.png"},
-      {"title":"Licht & podium","text":"RGB-verlichting, podiumverlichting en complete lichtopstellingen.","image":"assets/stage.jpg"},
-      {"title":"Feestopstelling","text":"Van dansvloer en licht tot een complete DJ-setup.","image":"assets/event-3.png"},
-      {"title":"Sfeer & extra's","text":"Prikkabel, heaters en aanvullende materialen voor binnen en buiten.","image":"assets/event-4.png"},
-      {"title":"Buitenfeest","text":"Verlichting en audio voor tuinfeesten, tenten en buitenlocaties.","image":"assets/event-5.png"},
-      {"title":"Complete productie","text":"Een totaaloplossing waarbij licht, geluid en sfeer samenkomen.","image":"assets/event-6.png"}
-    ]
-  },
-  "dj": {
-    "eyebrow":"Allround DJ",
-    "title":"Van achtergrondmuziek tot volle dansvloer.",
-    "lead":"Een flexibele allround DJ-set voor verjaardagen, bruiloften, bedrijfsfeesten, verenigingen en privéfeesten.",
-    "image":"assets/dj-casual.jpg",
-    "points":["Muziek afgestemd op leeftijd, publiek en sfeer","Van gezellige classics tot moderne partyhits","Te combineren met licht- en geluidsverhuur","Persoonlijke voorbereiding vooraf"]
-  },
-  "presskit": {
-    "eyebrow":"Presskit",
-    "title":"DJ & entertainer",
-    "lead":"Een veelzijdige performer voor evenementen waar muziek, uitstraling en sfeer samenkomen.",
-    "text":"Beschikbaar voor interviews, boekingen, samenwerkingen, social content en evenementen. Voor persmateriaal kan deze pagina als online presskit worden gebruikt.",
-    "quote":"Een complete combinatie van muziek, entertainment, licht en geluid — afgestemd op het evenement.",
-    "portrait":"assets/dj-portrait.jpg",
-    "outfits":["assets/dj-white.jpg","assets/dj-pink.jpg","assets/dj-silver.jpg","assets/dj-green.jpg","assets/dj-surf.jpg","assets/dj-portrait.jpg"]
-  },
-  "gallery": {
-    "eyebrow":"Impressie",
-    "title":"Van opbouw tot feest.",
-    "intro":"Een selectie van licht-, geluids- en eventopstellingen.",
-    "images":["assets/stage.jpg","assets/event-1.png","assets/event-2.png","assets/event-3.png","assets/event-5.png","assets/event-6.png"]
-  },
-  "contact": {
-    "eyebrow":"Boeking & offerte",
-    "title":"Vertel wat je organiseert.",
-    "text":"Vul het formulier in. Je e-mailprogramma opent daarna met een complete aanvraag.",
-    "region":"Leudal • Roermond • Limburg",
-    "phone":"+31 6 33103952",
-    "email":"info@evenementertainment.nl"
-  },
   "footer": {
-    "region":"Leudal • Roermond • Limburg",
-    "phone":"+31 6 33103952"
-  }
+    "region": "Leudal • Roermond • Limburg",
+    "phone": "+31 6 33103952"
+  },
+  "stats": [
+    {
+      "title": "🔊 Geluid",
+      "text": "Sets voor kleine en grotere feesten"
+    },
+    {
+      "title": "💡 Licht",
+      "text": "Sfeerverlichting & podiumlicht"
+    },
+    {
+      "title": "🎧 Allround DJ",
+      "text": "Muziek afgestemd op het publiek"
+    },
+    {
+      "title": "🎪 Eventverhuur",
+      "text": "Complete opstellingen op aanvraag"
+    }
+  ]
 }
