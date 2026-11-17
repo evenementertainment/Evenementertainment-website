@@ -66,11 +66,11 @@
     "images": [
       "assets/stage.jpg",
       "assets/event-1.png",
-      "assets/event-2.png",
+      "/assets/vrouwluujzitting-wessem-26.jpg",
       "assets/event-3.png",
       "assets/event-5.png",
       "assets/event-6.png",
-      "/assets/logo-evenementertainment-ksv.png",
+      "/assets/img_4491.jpeg",
       "/assets/img_7523.jpeg"
     ]
   },
@@ -87,7 +87,7 @@
       "assets/dj-silver.jpg",
       "assets/dj-green.jpg",
       "assets/dj-surf.jpg",
-      "assets/dj-portrait.jpg"
+      "/assets/img_0153.jpeg"
     ]
   },
   "metaDescription": "Evenementertainment: verhuur van licht en geluid, complete feestopstellingen en allround DJ-service.",
