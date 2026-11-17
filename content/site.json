@@ -40,7 +40,7 @@
       {
         "title": "Complete productie",
         "text": "Een totaaloplossing waarbij licht, geluid en sfeer samenkomen.",
-        "image": "assets/event-6.png"
+        "image": "/assets/hero.jpg"
       }
     ]
   },
@@ -70,7 +70,8 @@
       "assets/event-3.png",
       "assets/event-5.png",
       "assets/event-6.png",
-      "/assets/logo-evenementertainment-ksv.png"
+      "/assets/logo-evenementertainment-ksv.png",
+      "/assets/img_7523.jpeg"
     ]
   },
   "presskit": {
@@ -79,7 +80,7 @@
     "lead": "Een veelzijdige performer voor evenementen waar muziek, uitstraling en sfeer samenkomen.",
     "text": "Beschikbaar voor boekingen, samenwerkingen, social content en evenementen.",
     "quote": "Een complete combinatie van muziek, entertainment, licht en geluid — afgestemd op het evenement.",
-    "portrait": "assets/dj-portrait.jpg",
+    "portrait": "/assets/dj-portrait.jpg",
     "outfits": [
       "assets/dj-white.jpg",
       "assets/dj-pink.jpg",
