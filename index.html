@@ -44,7 +44,12 @@ footer{border-top:1px solid var(--line);padding:48px 0;color:var(--muted)}.foot{
 .float{position:fixed;right:18px;bottom:18px;z-index:90;background:#20c96d;color:#fff;padding:13px 18px;border-radius:999px;font-weight:950;box-shadow:0 14px 40px rgba(0,0,0,.4)}
 @media(max-width:900px){.navlinks{display:none}.navlinks.open{display:flex;position:absolute;top:76px;left:0;right:0;flex-direction:column;align-items:stretch;padding:18px;background:#0a0a0f;border-bottom:1px solid var(--line)}.navlinks.open a{padding:8px}.menu{display:block}.statsgrid,.grid3{grid-template-columns:1fr 1fr}.two,.pressgrid,.contact{grid-template-columns:1fr}.visual,.pressportrait{min-height:430px;height:430px}.gallery{grid-template-columns:1fr 1fr}.outfits{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.nav{height:68px}.navlinks.open{top:68px}.logo{height:43px}.hero .wrap{padding:135px 0 78px}.stats{margin-top:-20px}.statsgrid,.grid3,.grid2,.checks,.gallery,.outfits{grid-template-columns:1fr}.gallery{grid-auto-rows:230px}.gallery img:first-child{grid-row:auto}section{padding:72px 0}.sectionhead{display:block}.sectionhead p{margin-top:12px}.visual,.pressportrait{min-height:380px;height:380px}}
-</style></head>
+@media (max-width: 600px) {
+  .outfits img {
+    height: auto;
+    object-fit: contain;
+  }
+}</style></head>
 <body>
 <header><div class="wrap nav"><a href="#home"><img class="logo" src="assets/logo-evenementertainment.jpg" alt="Evenementertainment"></a><nav class="navlinks" id="navlinks"><a href="#verhuur">Verhuur</a><a href="#dj">DJ</a><a href="#presskit">Presskit</a><a href="#galerij">Galerij</a><a class="btn primary" href="#contact">Offerte aanvragen</a></nav><button class="menu" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button></div></header>
 <main id="home">
